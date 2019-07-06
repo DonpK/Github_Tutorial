@@ -25,10 +25,8 @@ void loop()
   int myOtherValue = 2; //changed at 20:54
   myValue = analogRead(A0);
   // This is a new comment
-<<<<<<< Updated upstream
-=======
   // This is another new comment
->>>>>>> Stashed changes
+  // This is the third change.
   Serial.print("The value is: ");
   Serial.println(myValue);
 
